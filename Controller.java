@@ -1,3 +1,4 @@
+// Created by Daniel Henrique
 import java.util.Scanner;
 abstract class Controller extends Armazem {
     public void carregarEstoque() {
