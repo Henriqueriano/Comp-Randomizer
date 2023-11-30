@@ -1,13 +1,10 @@
-// Created by Daniel Henrique
-public class  Main extends Controller
-{    
-    public Main() 
-    {
-       carregarEstoque(); 
-       start();
+
+public class Main extends Logic {
+    public Main() {
+        carregarListas();
+        start();
     }
-   public static void main(String[] args) 
-    {
+    public static void main(String[] args) {
         new Main();
-    }
+ }
 }
