@@ -1,5 +1,5 @@
 
-public class Main extends Logic {
+public class Main extends Controller {
     public Main() {
         carregarEstoque();
         start();
